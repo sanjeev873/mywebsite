@@ -1,0 +1,433 @@
+/*mobile responsive max width= 768px*/
+@media(max-width: 768px){
+
+.nav h2{
+	font-size: 10px;
+}
+.nav ul{
+	width: 0px;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 0%;
+	line-height: 30px;
+	right: 0px;
+	background-color: black;
+	transition: 0.4s;
+}
+#logo_nav{
+	display: block;
+}
+.nav ul li{
+	position: relative;
+	top: 20px;
+	line-height: 30px;
+}
+#show{
+	display: block;
+}
+#close{
+	display: none;
+}
+
+.child_con{
+	width: 500vw;
+	height: 50vh;
+}
+.middle{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.img_div img{
+	width: 100%;
+	height: 50vh;
+}
+.child_con h2{
+	font-size: 20px;
+	margin-top: -50px;
+}
+.child_con p{
+	font-size: 15px;
+	margin-top: -40px;
+}
+.div_gradinent{
+	height: 50vh;
+}
+.fa-chevron-right,.fa-chevron-left{
+	display: none;
+}
+.thoughts{
+	top: 30%;
+	left: 10%;
+	font-size: 1.5rem;
+	color: #fff;
+	width: 70%;
+}
+.middle{
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.welcome {
+    width: 80vw;
+    height: 30vh;
+    margin-left: 0;
+    font-size: 20px;
+    float: left;
+}
+hr{
+	width: 40%;
+	height: 2px;
+	position: relative;
+	left: 30%;
+}
+.welcome .about_me{
+	font-size: 2rem;
+	line-height: 2rem;
+}
+.middle_img{
+	width: 90vw;
+	margin:10px;
+}
+.services_con{
+	width: 100%;
+	padding: 10px;
+}
+.service_title {
+    font-size: 3rem;
+}
+.services p {
+    font-size: 20px;
+}	
+.service_box_con {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.service_card {
+    width: 90vw;
+    height: 50vh;
+    margin-left: 20px;
+}
+.project {
+    padding: 10px;
+}
+.pro_title h1 {
+    font-size: 25px;
+    padding: 10px;
+}
+.pro_box_con {
+    flex-direction: column;
+}
+.pro_box_large {
+    width: 91vw;
+    height: 500px;
+}
+.pro_box {
+    width: 91vw;
+    height: 500px;
+    margin-bottom: 10px;
+}
+.Pro_box_con_two {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.Pro_box_con_two .pro_box_large {
+    margin-top: 0px;
+}
+.contact {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	height: 50%;
+    padding-top: 10px;
+    padding-right: 0;
+}
+.login_con{
+	position: relative;
+	top: -250px;
+	left: 20px;
+}
+.login_title h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+fieldset{
+	width: 90vw;
+}
+legend {
+    text-align: center;
+    font-size: 30px;
+}
+.login_bg{
+		display: none;
+}
+.login_contact{
+	width: 100vw;
+	height: 200px;
+	margin-left: 10px;
+}
+legend{
+		font-size: 30px;
+}
+#uname,#email{
+	width: 65rem;
+	height:50px;
+}
+textarea{
+	width: 65rem;
+	height: 150px;
+}
+}
+/*mobile responsive max width= 768px* ends here*/
+/*======== mobile responsive max width= 420px starts here ============*/
+
+ @media(max-width: 420px){
+.nav h2{
+font-size: 10px;
+}
+.nav ul{
+	width: 0;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 0%;
+	line-height: 30px;
+	right: 0px;
+	background-color: black;
+	transition: 0.4s;
+}
+#logo_nav{
+	display: block;
+}
+.nav ul li{
+	position: relative;
+	top: 20px;
+	line-height: 30px;
+}
+#show{
+	display: block;
+}
+#close{
+	display: block;
+}
+
+.thoughts{
+	top: 60%;
+}
+.child_con{
+	width: 500vw;
+	height: 50vh;
+}
+.middle{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.img_div img{
+	width: 100%;
+	height: 50vh;
+}
+.child_con h2{
+	font-size: 20px;
+	margin-top: -50px;
+}
+.child_con p{
+	font-size: 15px;
+	margin-top: -40px;
+}
+.div_gradinent{
+	height: 50vh;
+}
+.fa-chevron-right,.fa-chevron-left{
+	display: none;
+}
+.thoughts{
+	top: 30%;
+	left: 10%;
+	font-size: 1.5rem;
+	color: #fff;
+	width: 70%;
+}
+.middle{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+}
+.welcome {
+    width: 80vw;
+    height: 100vh;
+    margin-left: 0;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    top: -10px;
+}
+hr{
+	width: 80%;
+	height: 2px;
+	left: 10%;
+	background-color:  #04f9f9;
+}
+.welcome .about_me{
+	font-size: 2rem;
+	line-height: 2rem;
+}
+.middle_img{
+	width: 90vw;
+	margin:10px;
+}
+.services_con{
+	width: 100%;
+	padding: 10px;
+}
+.service_title {
+    font-size: 3rem;
+}
+.services p {
+    font-size: 15px;
+}	
+.service_box_con {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.service_card {
+    width: 90vw;
+    height: 50vh;
+    margin-left: 5px;
+}
+.project {
+    padding: 10px;
+}
+.pro_title h1 {
+    font-size: 25px;
+    padding: 10px;
+}
+.pro_box_con {
+    flex-direction: column;
+}
+.pro_box_large {
+    width: 91vw;
+    height: 400px;
+    padding-bottom: 10px;
+}
+.pro_box {
+    width: 91vw;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.Pro_box_con_two {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.Pro_box_con_two .pro_box_large {
+    margin-top: 0px;
+}
+.contact {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+    padding-top: 10px;
+    padding-right: 0;
+}
+.login_con{
+	position: relative;
+	top: -270px;
+}
+.login_title h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+fieldset{
+	width: 80vw;
+}
+legend {
+    text-align: center;
+    font-size: 30px;
+}
+.login_bg{
+	display: none;
+}
+.login_contact{
+	width: 100vw;
+	height: 200px;
+}
+legend{
+	font-size: 30px;
+}
+#uname,#email{
+	width: 25rem;
+	height:50px;
+}
+textarea{
+	width: 25rem;
+	height: 150px;
+}
+}
+
+/*======== mobile responsive max width= 420px ends here ============*/
+/*========= Tablet responsive max widht = 768px starts here ===========*/
+@media(max-width: 768px){
+.contact {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+    padding-top: 10px;
+    padding-right: 0;
+}
+.login_con{
+	position: relative;
+	top: -400px;
+}
+.login_title h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+fieldset{
+	width: 80vw;
+	height: 80vh;
+}
+legend {
+    text-align: center;
+    font-size: 30px;
+}
+.login_bg{
+	display: none;
+}
+.login_contact{
+	width: 100vw;
+	height: 200px;
+}
+legend{
+	font-size: 30px;
+}
+#uname,#email{
+	width: 67rem;
+	height:70px;
+	margin-bottom: 30px;
+}
+textarea{
+	width: 67rem;
+	height: 170px;
+	margin-bottom: 30px;
+}
+}
+/*========= Tablet responsive max widht = 768px starts here ===========*/
